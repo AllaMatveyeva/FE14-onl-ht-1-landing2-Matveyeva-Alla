@@ -1,0 +1,29 @@
+.footer {
+  padding: 29px 0;
+  background-color: #313454;
+}
+.footer-text {
+  margin: auto;
+  max-width: 312px;
+  text-align: center;
+}
+.footer-text-p {
+  color: #808080;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  &::after {
+    content: "by Kamal Chaneman";
+    opacity: 0.75;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+  }
+}
+.img {
+  height: 14px;
+  width: 14px;
+}

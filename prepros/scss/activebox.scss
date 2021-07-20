@@ -1,0 +1,60 @@
+.activebox {
+  background-color: #3a3e64;
+  padding: 71px 0px;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 11px;
+}
+.activebox-block {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: 11%;
+}
+.activebox-block-left {
+  width: 14.46977%;
+}
+
+.activebox-block-center {
+}
+.activebox-block-right {
+  width: 28.507%;
+}
+.activebox-title {
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.activebox-text {
+  opacity: 0.5;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+}
+.activebox-icons {
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+  color: #ffffff;
+  font-size: 18px;
+}
+.activebox-icons-wrapper {
+  border: 2px solid #ffffff;
+  width: 40px;
+  padding: 11px 16px;
+  transition: 0.2s;
+  &:hover {
+    color: rgb(117, 14, 235);
+    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px crimson,
+      0 0 35px crimson, 0 0 40px crimson, 0 0 50px crimson, 0 0 75px crimson;
+  }
+}

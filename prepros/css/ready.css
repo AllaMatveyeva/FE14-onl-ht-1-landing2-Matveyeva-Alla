@@ -1,0 +1,51 @@
+.ready {
+  padding: 100px 0;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 11px;
+  margin: auto;
+}
+
+.ready-title {
+  color: #2d3033;
+  font-family: Raleway;
+  font-size: 28px;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+}
+
+.ready-text {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.ready-text-p {
+  font-family: Raleway;
+  font-size: 13px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ready-button {
+  display: block;
+  margin: auto;
+  padding: 18px 83px 18px 83px;
+  background-color: #e84545;
+  border: 0px;
+  margin-top: 40px;
+}
+.ready-button:hover {
+  -webkit-box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+          box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+.ready-button-text {
+  color: #ffffff;
+  font-family: "Raleway - Semi Bold";
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+}
