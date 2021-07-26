@@ -11,10 +11,12 @@
   justify-content: space-between;
   margin-left: -11px;
   margin-right: -11px;
-
 }
 .customers-item {
   margin: 0 30px;
+  @media (max-width: 710px) {
+    margin: 0 10px;
+  }
 }
 .customers-item-wrapper {
   padding-bottom: 100%;
@@ -32,6 +34,10 @@
 }
 .customers-inicials {
   margin-top: 30px;
+  @media (max-width: 870px) {
+    margin-top: 0px;
+    height: 30px;
+  }
 }
 .customers-inicials-p {
   color: #2d3033;
@@ -42,6 +48,12 @@
 }
 .customers-position {
   margin-top: 16px;
+  @media (max-width: 870px) {
+    margin-top: 30px;
+  }
+  @media (max-width: 805px) {
+    height: 40px;
+  }
 }
 .customers-position-p {
   color: #e84545;
@@ -52,6 +64,9 @@
 }
 .customers-text {
   margin-top: 29px;
+  @media (max-width: 805px) {
+    margin-top: 10px;
+  }
 }
 .customers-text-p {
   color: #6c7279;
@@ -63,17 +78,18 @@
 .customers-icons {
   display: flex;
   justify-content: left;
-  text-align: center;
   font-size: 16px;
   color: #c6cacc;
   margin-top: 31px;
 }
 .customers-icons-wrapper {
   width: 40px;
-  height: 40px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 11px;
+  padding-top: 11px;
   border: 1px solid #e8ecee;
   background-color: #ffffff;
-  padding: 11px 16px;
   transition: 0.2s;
   &:hover {
     color: rgb(117, 14, 235);

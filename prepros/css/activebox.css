@@ -47,14 +47,12 @@
 }
 
 .activebox-icons {
-  margin-top: 4px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  text-align: center;
   color: #ffffff;
   font-size: 18px;
 }
@@ -62,7 +60,9 @@
 .activebox-icons-wrapper {
   border: 2px solid #ffffff;
   width: 40px;
-  padding: 11px 16px;
+  margin: auto;
+  padding-top: 11px;
+  padding-bottom: 11px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
