@@ -18,23 +18,23 @@
     <title>Landing 2</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header"id="header-yak">
       <div class="container">
         <div class="header-nav">
           <div class="logo"><a class="nav-list-item-link" href="#"> active</a></div>
           <nav class="nav">
             <ul class="nav-list">
               <li class="nav-list-item">
-                <a class="nav-list-item-link" href="#">feautures</a>
+                <a class="nav-list-item-link" href="#yak1">feautures</a>
               </li>
               <li class="nav-list-item">
-                <a class="nav-list-item-link" href="#">Works</a>
+                <a class="nav-list-item-link" href="#yak2">Works</a>
               </li>
               <li class="nav-list-item">
-                <a class="nav-list-item-link" href="#">Our Team</a>
+                <a class="nav-list-item-link" href="#yak3">Our Team</a>
               </li>
               <li class="nav-list-item">
-                <a class="nav-list-item-link" href="#">Testimonials</a>
+                <a class="nav-list-item-link" href="#yak4">Testimonials</a>
               </li>
             </ul>
           </nav>
@@ -59,7 +59,7 @@
         </button>
       </div>
     </section>
-    <section class="section-icons">
+    <section class="section-icons" id="yak1">
       <div class="container-icons">
         <div class="icons-block-top">
           <div class="icons-row">
@@ -145,7 +145,7 @@
         </div>
       </div>
     </section>
-    <section class="portfolio">
+    <section class="portfolio" id="yak2">
       
       <div class="portfolio-block">
         <div class="portfolio-wrapper">
@@ -253,7 +253,7 @@
     
   
     </section>
-    <section class="customers">
+    <section class="customers" id="yak3">
       <div class="container">
         <div class="customers-row">
           <div class="customers-item">
@@ -415,7 +415,7 @@
         </div>
       </div>
     </section>
-    <section class="section-slider">
+    <section class="section-slider" id="yak4">
               <div class="slider">
 <div class="slider-item">
   <div class="slider-item-left">
@@ -545,5 +545,15 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./js/slick.min.js"></script>
     <script src="./js/slider.js"></script>
+    <script type="text/javascript">
+          $(document).ready(function(){
+         $("#header-yak").on("click","a", function (event) {
+             event.preventDefault();
+             var id  = $(this).attr('href'),
+                 top = $(id).offset().top;
+             $('body,html').animate({scrollTop: top}, 1500);
+         });
+     });
+     </script>
   </body>
 </html>
